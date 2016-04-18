@@ -1,13 +1,19 @@
-<h1>Leap year detector</h1>
+<h1>Ping-Pong</h1>
 
-<p>Find out if any year to the form below.  Submit your year and we will tell you
-  if it is a leap year!</p>
+<h1>Ping Pong Game</h1>
+  <h4><strong>Rules:</strong></h4>
+  <p>Ping Pong will count up to your number from 1 with the following <b><em>exceptions:</em></b></p>
+<ol>
+  <li>Numbers divisible by 3 are replaced with "ping"</li>
+  <li>Numbers divisible by 5 are replaced with "pong"</li>
+  <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+</ol>
 
 <form action='/detector' method='get'>
   <div class="form-group">
-    <label for="year">Year</label>
-    <input id="year" name="year" class="form-control" type="text">
+    <label for="number">Enter a number here</label>
+    <input id="number" name="number" class="form-control" type="text">
   </div>
 
-  <button type="submit" class="btn btn-info">Is it a leap year?</button>
+  <button type="submit" class="btn btn-info">Ping-Pong!</button>
 </form>
